@@ -101,7 +101,7 @@ export const App: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#0b1329] text-slate-100">
+    <div className="min-h-screen flex flex-col bg-[#f8fafc] text-slate-800">
       {/* Top Navigation */}
       <Navbar
         activeTab={activeTab}
@@ -117,7 +117,7 @@ export const App: React.FC = () => {
             <div className="w-12 h-12 rounded-xl bg-blue-600 flex items-center justify-center animate-pulse">
               <Train className="w-6 h-6 text-white animate-spin" />
             </div>
-            <p className="text-sm font-semibold text-slate-300">
+            <p className="text-sm font-semibold text-slate-600">
               Connecting to RailGati-AI Telemetric Server & Seeding Corridor Data...
             </p>
           </div>
@@ -182,14 +182,14 @@ export const App: React.FC = () => {
       </main>
 
       {/* Footer */}
-      <footer className="bg-slate-950 border-t border-slate-900 py-4 px-4 text-xs text-slate-400 mt-12">
+      <footer className="bg-white border-t border-slate-200 py-4 px-4 text-xs text-slate-500 mt-12 shadow-sm">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
           <div className="flex items-center space-x-2">
-            <span className="font-bold text-white">RailGati-AI</span>
+            <span className="font-bold text-slate-900">RailGati-AI</span>
             <span>•</span>
             <span>Smart India Hackathon (SIH 2026) Problem Statement 26028</span>
           </div>
-          <div className="text-[11px] text-slate-400">
+          <div className="text-[11px] text-slate-500">
             Dynamic Forecast of ETA for Coaching Trains • Northern & North Central Railway HDN-1 Corridor
           </div>
         </div>
